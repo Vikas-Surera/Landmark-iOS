@@ -112,7 +112,6 @@
 		928273362879855B00529CCC /* Landmark */ = {
 			isa = PBXGroup;
 			children = (
-				9282736528798A8F00529CCC /* landmarkData.json */,
 				9282736D28798E2700529CCC /* Resources */,
 				9282736C28798E1300529CCC /* Model */,
 				928273372879855B00529CCC /* LandmarkApp.swift */,
@@ -173,6 +172,7 @@
 		9282736D28798E2700529CCC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9282736528798A8F00529CCC /* landmarkData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

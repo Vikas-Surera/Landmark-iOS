@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct LandmarkApp: App {
+    // State property of the ObservableObject
     @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {

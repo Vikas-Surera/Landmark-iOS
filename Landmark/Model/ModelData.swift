@@ -8,7 +8,9 @@
 import Foundation
 import Combine
 
+// Observable Object to make a single instance and able to listen and transmit changes
 final class ModelData: ObservableObject{
+    // @Publichsed to make sure it transmit changes
     @Published var landmarks: [Landmark] = load("landmarkData.json")
 }
 
