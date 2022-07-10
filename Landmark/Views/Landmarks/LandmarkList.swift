@@ -43,6 +43,6 @@ struct LandmarkList_Previews: PreviewProvider {
         
         LandmarkList()
             .environmentObject(ModelData())
-            .previewDevice("iPhone 13")
+        
     }
 }
