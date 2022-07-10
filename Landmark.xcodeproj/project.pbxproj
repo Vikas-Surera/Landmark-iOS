@@ -99,6 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921ED3B4287AD66700F6171F /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				921ED3AA287ACAC600F6171F /* HexagonParameters.swift */,
+				921ED3AE287AD3A900F6171F /* BadgeSymbol.swift */,
+				921ED3B0287AD49E00F6171F /* RotatedBadgeSymbol.swift */,
+				921ED3B2287AD53100F6171F /* Badge.swift */,
+				921ED3AC287ACC5F00F6171F /* BadgeBackground.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
 		9282732B2879855A00529CCC = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +140,6 @@
 				9282736B28798DFA00529CCC /* Views */,
 				9282733B2879855B00529CCC /* Assets.xcassets */,
 				9282733D2879855B00529CCC /* Preview Content */,
-				921ED3AA287ACAC600F6171F /* HexagonParameters.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -162,15 +173,12 @@
 			isa = PBXGroup;
 			children = (
 				9282736E28798ECB00529CCC /* LandmarkRow.swift */,
-				921ED3AE287AD3A900F6171F /* BadgeSymbol.swift */,
-				921ED3B0287AD49E00F6171F /* RotatedBadgeSymbol.swift */,
-				921ED3B2287AD53100F6171F /* Badge.swift */,
+				921ED3B4287AD66700F6171F /* Badge */,
 				928273702879946B00529CCC /* LandmarkList.swift */,
 				92827372287995DF00529CCC /* LandmarkDetail.swift */,
 				928273762879A3B400529CCC /* Landmarks */,
 				928273392879855B00529CCC /* ContentView.swift */,
 				928273772879A3C900529CCC /* Helpers */,
-				921ED3AC287ACC5F00F6171F /* BadgeBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
