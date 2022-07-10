@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921ED3AB287ACAC600F6171F /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921ED3AA287ACAC600F6171F /* HexagonParameters.swift */; };
 		928273382879855B00529CCC /* LandmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928273372879855B00529CCC /* LandmarkApp.swift */; };
 		9282733A2879855B00529CCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928273392879855B00529CCC /* ContentView.swift */; };
 		9282733C2879855B00529CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9282733B2879855B00529CCC /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		921ED3AA287ACAC600F6171F /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		928273342879855B00529CCC /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928273372879855B00529CCC /* LandmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkApp.swift; sourceTree = "<group>"; };
 		928273392879855B00529CCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				9282736B28798DFA00529CCC /* Views */,
 				9282733B2879855B00529CCC /* Assets.xcassets */,
 				9282733D2879855B00529CCC /* Preview Content */,
+				921ED3AA287ACAC600F6171F /* HexagonParameters.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				92827364287987F700529CCC /* MapView.swift in Sources */,
 				928273382879855B00529CCC /* LandmarkApp.swift in Sources */,
 				928273752879A2DB00529CCC /* FavoriteButton.swift in Sources */,
+				921ED3AB287ACAC600F6171F /* HexagonParameters.swift in Sources */,
 				928273712879946B00529CCC /* LandmarkList.swift in Sources */,
 				92827373287995DF00529CCC /* LandmarkDetail.swift in Sources */,
 				928273622879873700529CCC /* CircleImage.swift in Sources */,
