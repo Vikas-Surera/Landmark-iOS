@@ -172,10 +172,7 @@
 		9282736B28798DFA00529CCC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9282736E28798ECB00529CCC /* LandmarkRow.swift */,
 				921ED3B4287AD66700F6171F /* Badge */,
-				928273702879946B00529CCC /* LandmarkList.swift */,
-				92827372287995DF00529CCC /* LandmarkDetail.swift */,
 				928273762879A3B400529CCC /* Landmarks */,
 				928273392879855B00529CCC /* ContentView.swift */,
 				928273772879A3C900529CCC /* Helpers */,
@@ -203,6 +200,9 @@
 		928273762879A3B400529CCC /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				9282736E28798ECB00529CCC /* LandmarkRow.swift */,
+				928273702879946B00529CCC /* LandmarkList.swift */,
+				92827372287995DF00529CCC /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
